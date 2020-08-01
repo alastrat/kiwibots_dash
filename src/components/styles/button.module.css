@@ -1,0 +1,23 @@
+.button {
+  padding: .6rem;
+  border-radius: var(--small-radius);
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+.primary {
+  background-color: var(--primary);
+  border-color: var(--primary);
+}
+.secondary {
+  background-color: var(--secondary);
+  border-color: var(--secondary);
+}
+.fill {
+  color: var(--white);
+}
+.outline {
+  color: var(--secondary);
+  background-color: transparent;
+  border-width: 2px;
+  border-style: solid;
+}

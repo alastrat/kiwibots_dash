@@ -1,0 +1,41 @@
+.navbar {
+  height: 100%;
+  width: 8rem;
+  color: white;
+  padding: 1rem 1.2rem 1rem 1.2rem;
+  margin-right: 7rem;
+  background-color: var(--secondary);
+}
+.navbar-brand {
+}
+.navbar-logo-container {
+  width: 100%;
+  height: 3rem;
+  display: block;
+}
+.navbar-logo {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: top;
+}
+.navbar-menu {
+  display: flex;
+  flex-flow: column;
+  flex: 1;
+  justify-content: space-between;
+}
+.navbar-menu-start {
+  display: flex;
+  flex-flow: inherit;
+}
+.navbar-menu-end {
+  display: flex;
+  flex-flow: inherit;
+}
+
+.navbar-item {
+  color: white;
+  text-decoration: none;
+  margin: .75rem 0;
+}

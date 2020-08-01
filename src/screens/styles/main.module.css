@@ -1,0 +1,34 @@
+.main-container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-flow: row;
+  background-color: var(--secondary);
+  position: relative;
+}
+.main-content {
+  flex: 1;
+  background-color: var(--colored-light);
+  border-radius: var(--big-radius);
+}
+.float-delivery {
+  position: absolute;
+  z-index: 100;
+  left: 1rem;
+  top: 1rem;
+  height: calc(100% - 2rem);
+  box-shadow: -3px 7px 13px rgba(0, 0, 0, 0.25);
+}
+.button-map-mode {
+  --size: 40px;
+  height: var(--size);
+  width: var(--size);
+  position: absolute;
+  right: 10px;
+  top: 4rem;
+  z-index: 1000;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px;
+  border-radius: 2px;
+  padding: 10px;
+}

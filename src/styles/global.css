@@ -1,0 +1,75 @@
+:root {
+  --green: #73D02F;
+  --orange: #FE9738;
+  --blue: #00C2FF;
+  --red: #FF6359;
+
+
+  --primary: #5B1FD6;
+  --colored-light: #FDF4F1;
+  --secondary: #372b47;
+  --white: #FFFFFF;
+  --gray:#B7B7B7;
+  --big-radius: 20px;
+  --small-radius: 7px;
+}
+
+
+body,
+html {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, Oxygen, Segoe UI, Roboto, Ubuntu,
+    Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  background: var(--gray);
+  overflow-y: hidden;
+}
+* {
+  box-sizing: border-box;
+}
+button {
+  cursor: pointer;
+}
+#root {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-flow: column;
+}
+.full-size-flex {
+  height: 100%;
+  width: 100%;
+  display: flex;
+}
+.vertical-flex-centered {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.horizontal-flex-centered {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.pointer-events-none {
+  pointer-events: none !important;
+}
+.display-none {
+  display: none !important;
+}
+.display-flex {
+  flex: 1;
+  display: flex !important;
+}
+.force-0px {
+  max-width: 0px !important;
+  min-height: 0px !important;
+}
+.font-size-12 {
+  font-size: 12px;
+  line-height: 14px;
+}
